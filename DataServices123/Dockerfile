@@ -9,7 +9,7 @@ FROM dataimages123.azurecr.io/sdk:latest AS build
 WORKDIR /src
 COPY ["DataServices123/DataServices123/DataServices123.csproj", "DataServices123/"]
 RUN dotnet restore "DataServices123/DataServices123.csproj"
-COPY . .
+COPY DataServices123/. .
 WORKDIR "/src/DataServices123"
 RUN dotnet build "DataServices123.csproj" -c Release -o /app/build
 
