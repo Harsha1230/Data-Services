@@ -1,4 +1,4 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+#See https://akms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM dataimages123.azurecr.io/runtimesdk:latest AS base
 WORKDIR /app
