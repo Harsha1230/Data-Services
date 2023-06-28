@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:14:50.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nPdV1cg6cgXdX8n5zZ35" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:26:07.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UxGFDGz279mYhL6M0Img" version="21.5.1" type="github">
   <diagram name="Page-1" id="WyiXIJd1U91J6u8Udnyy">
     <mxGraphModel dx="2100" dy="1162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,11 +40,11 @@
         <mxCell id="1FNrej181n1RThrmHyVT-13" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="60" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1FNrej181n1RThrmHyVT-15" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="330" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1FNrej181n1RThrmHyVT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=92;exitDy=21;exitPerimeter=0;entryX=0;entryY=0;entryDx=92;entryDy=39;entryPerimeter=0;" parent="1" source="1FNrej181n1RThrmHyVT-15" target="1FNrej181n1RThrmHyVT-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1FNrej181n1RThrmHyVT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=92;exitDy=21;exitPerimeter=0;entryX=0;entryY=0;entryDx=92;entryDy=39;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="648" y="369" as="sourcePoint" />
+            <mxPoint x="648" y="351" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1FNrej181n1RThrmHyVT-19" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="805" y="460" width="60" height="250" as="geometry" />
@@ -158,17 +158,26 @@
         <mxCell id="1FNrej181n1RThrmHyVT-58" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Cosmos&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="793.75" y="740" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1FNrej181n1RThrmHyVT-59" value="once the approver approves or declines, we will make Api call to update the same" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="1FNrej181n1RThrmHyVT-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;once the approver approves or declines, we will make Api call to update the same&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="980" y="290" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1FNrej181n1RThrmHyVT-60" value="Ui changes based on data whetther it is appoved or declined" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="1FNrej181n1RThrmHyVT-60" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ui changes based on data whetther it is appoved or declined&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="560" y="310" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1FNrej181n1RThrmHyVT-61" value="we will using this for searching Emails from B2C for recomendations while looking for poc email" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="1FNrej181n1RThrmHyVT-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;we will using this for searching Emails from B2C for recomendations while looking for poc email&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="200" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FNrej181n1RThrmHyVT-62" value="User has to login to approve or decline the request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dEheNe7zWdzZTcc1VNpO-1" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="330" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dEheNe7zWdzZTcc1VNpO-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;By clicking on request or cancel option, we will update it in container&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="395" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dEheNe7zWdzZTcc1VNpO-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;a mail will be sent for a new requesat or cancellation of existing request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="160" width="192.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
